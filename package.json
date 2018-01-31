@@ -1,5 +1,5 @@
 {
-  "name": "focdec-imagesearcher",
+  "name": "fcodec-imagesearcher",
   "version": "0.0.1",
   "description": "Basic node.js image searcher app",
   "main": "server.js",
@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "express": "^4.16.2",
-    "mongodb": "^3.0.1"
+    "mongodb": "^3.0.1",
+    "qwant-api": "*"
   },
   "engines": {
     "node": "8.x"
