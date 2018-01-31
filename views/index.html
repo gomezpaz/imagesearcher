@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Shortener</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body class="back">
+    <div class="container">
+      <h1 class="title1 text-center">
+        Img Search Abstraction Layer
+      </h1>
+      <hr class="my-3 box">
+      <h4 class="title2 text-center">
+        FCC Backend Assignment
+      </h4>
+      <div class="box">
+        <p class="title3">
+          Search example
+        </p>
+        <p class="title4">
+          Usage:
+        </p>
+        <mark class="plainText">
+          https://fcodec-imagesearcher.glitch.me/api/imagesearch/lolcats%20funny?offset=10
+        </mark>
+        <p class="title4">
+          Output:
+        </p>
+        <p class="plainText">
+          [{<b>"url":</b> "https://pics.onsizzle.com/cat-sandwich-lolcats-funny-8561549.png",
+            <b>"snippet":</b> "25+ Best Memes About Lolcat Funny | Lolcat Funny Memes",
+            <b>"thumbnail":</b> "//s2.qwant.com/thumbr/121x200/e/c...",
+            <b>"context":</b> "https://onsizzle.com/t/lolcat-funny"
+           }, ... 
+          ]
+        </p>
+        <p class="title3">
+          History example
+        </p>
+        <p class="title4">
+          Usage:
+        </p>
+        <mark class="plainText">
+          https://fcodec-imagesearcher.glitch.me/api/latest/imagesearch/
+        </mark>
+        <p class="title4">
+          Output:
+        </p>
+        <p class="plainText">
+          [{
+            <b>"_id":</b> "5a711be5d817870352e5d3d3",
+            <b>"term":</b> "lolcats funny",
+            <b>"when":</b> "2018-01-31T01:29:09.182Z"
+           }, ... 
+          ]
+        </p>
+      </div>
+      <h6 class="text-center name title2">
+        Santiago Gomez Paz &copy;
+      </h6>
+    </div>
+  </body>
+</html>
